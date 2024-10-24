@@ -1,0 +1,305 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    height: 100vh;
+}
+body{
+    width: 1440px;
+
+    margin: auto;
+    border: solid red 2px;
+}
+header{
+    /* height: 40vh; */
+    background-image: url(./portafolio/principal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 300px;
+
+}
+
+header h1{
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+
+header p{
+
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    width: 300px;
+    color: white;
+    font-size: 32px;
+    background-color: hsla(221, 68%, 44%, 0.221);
+    padding: 30px;
+    margin-left: 22%;
+    margin-top: 10%;
+    /* opacity: 60%;
+     */
+}
+/* header p:hover{
+    border: solid white 2px;
+    font-size: 45px;
+    width: 400px;
+    background-color: hsla(25, 10%, 4%, 0.221);
+    color: hsla(221, 92%, 14%, 0.221); 
+} 
+*/
+
+header h1 span:hover{
+    /* font-size: 80px; */
+    color:#9022ff;
+}
+
+
+
+/* Sobre mi */
+.sobremi{
+    /* height: 30vh; */
+    background-color: #7299fe;
+    padding: 30px 20px ;
+}
+.sobremi h2{
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 40px ;
+    color: #1d06a7;
+}
+.sobremi p{
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    padding-bottom: 30px;
+}
+button{
+    background-color: #d16eff;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 13px;
+    box-shadow: 0 5px #5b7aca;
+    font-size: 20px;
+}
+button:hover{
+    background-color:white;
+    color: #d16eff;
+}
+
+/* Skills */
+.skill{
+    /* height: 30vh; */
+    background-color: #9022ff;
+    padding: 20px 20px ;
+}
+.skill h2{
+    color: #26cc4b;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+.habilidades{
+    display: flex;
+    text-align:left;
+    justify-content: space-around; 
+    padding-top: 30px;
+}
+.habilidades .basico{
+   padding-bottom: 20px;
+    
+}
+.habilidades p{
+    color: white;
+}
+
+/* habilidades */
+
+
+.Container1,.Container2,.Container3{
+    padding-bottom: 20px;
+}
+.basico p{
+    margin-bottom: 30px;
+}
+
+.Bar {
+    background: #ffffff;
+    height: 5px;
+    display: block;
+    text-align: left;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    width: 550px;
+  }
+  
+  .Bar span { 
+    height: 20px;
+    float: left;
+    background: #57eff9;
+    border-radius: 25px;
+   
+  }
+  .Bar span:hover{
+    background-color:#1879e1d2;
+    }
+  .Bar{
+    height: 20px;
+    border-radius: 25px;
+  }
+  .Hundred {
+    width: 78%;
+  }
+  .TwoHundred {
+    width: 50%;
+  }
+  .ThreeHundred {
+    width: 89%;
+  }
+
+  /* Portafolio */
+  .porta{
+    background-color: #ffd233;
+    /* height: 25vh; */
+    padding:30px ;
+  }
+  .porta h2{
+    color: #00ad84;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 35px;
+ }
+
+ .proyecto{
+   
+    text-align: center;
+ }
+ .proyecto img:hover{
+    /* border:solid 10px transparent;  */
+    /* padding: 20px 20px 20px 20px; */
+    /* padding:20px 0 0 0; */
+    /* border: solid silver 3px; */
+    /* border: solid transparent 1px; */
+ }
+
+ /* .proyecto{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid red 2px;
+} */
+
+  /* .proyecto img{
+    width: 140px;
+    height: 92px;
+    padding-right: 20px;
+    justify-content: center;
+  }
+
+  .proyecto .up,
+  .proyecto .down{
+
+  } */
+
+  /* clientes */
+.cliente{
+    background-color: #3f4e62;
+    /* height: 15vh; */
+    padding: 30px 20px ;
+    text-align: center;
+
+}
+.cliente h2{
+    color: #adff28;
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 30px;
+
+}
+
+.client img{
+    width: 260px;
+    height: 50px;
+    padding-right: 10px;
+}
+.client img:hover{
+    border: solid transparent 5px;
+}
+
+
+/* Footer */
+.pie{
+    background-color: #1687a0;
+    /* height: 30vh; */
+    padding: 30px 20px ;
+    text-align: center;
+}
+.pie h2{
+    color: #ff1b1b;
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+
+.nombre input{
+    width: 300px;
+    height: 30px;
+    padding: 20px ;
+    
+}
+
+.correo input{
+    width: 300px;
+    height: 30px;
+    padding: 20px ;
+
+}
+.texto{
+    padding-top: 20px;
+}
+.uno{
+    margin: 10px;
+}
+.uno:hover{
+    border: solid red 2px;
+}
+.dos{
+    margin: 10px;
+}
+.dos:hover{
+    border: solid red 2px;
+}
+
+.tres{
+    margin: 10px;
+}
+.tres:hover{
+    border: solid red 2px;
+}
+.cuatro{
+    margin: 10px;
+}
+.cuatro:hover{
+    border: solid red 2px;
+}
+
+.area:hover{
+    border: solid red 2px;
+}
+
+.boton input{
+    margin-top: 20px;
+    color:white;
+    background-color:#233451 ;
+    width: 120px;
+    height: 40px;
+}
+
+.boton input:hover{
+    border: solid white 2px;
+}
